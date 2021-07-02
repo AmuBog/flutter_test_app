@@ -14,12 +14,13 @@ class Tab1Screen extends StatelessWidget {
             Text(
               'Tab 1',
             ),
-            TextButton(onPressed: () {
-              AutoRouter.of(context).push(
-                TestRoute(),
-              );
-            }
-            , child: Text("Naviger"))
+            TextButton(
+                onPressed: () {
+                  AutoRouter.of(context).push(
+                    TestRoute(),
+                  );
+                },
+                child: Text("Naviger"))
           ],
         ),
       ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'routes.gr.dart';
 
-
 void main() {
   runApp(MyApp());
 }
