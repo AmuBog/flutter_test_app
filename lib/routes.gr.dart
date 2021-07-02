@@ -6,7 +6,7 @@
 
 import 'package:auto_route/auto_route.dart' as _i1;
 import 'package:flutter/material.dart' as _i2;
-import 'package:navigation_test_app/screens/group_screen.dart' as _i3;
+import 'package:navigation_test_app/screens/main_screen.dart' as _i3;
 import 'package:navigation_test_app/screens/tab1_screen.dart' as _i4;
 import 'package:navigation_test_app/screens/tab2_screen.dart' as _i6;
 import 'package:navigation_test_app/screens/tab3_screen.dart' as _i7;
@@ -21,7 +21,7 @@ class AppRouter extends _i1.RootStackRouter {
     GroupScreenRoute.name: (routeData) => _i1.AdaptivePage<dynamic>(
         routeData: routeData,
         builder: (_) {
-          return _i3.GroupScreen();
+          return _i3.MainScreen();
         }),
     GroupTab1Router.name: (routeData) => _i1.AdaptivePage<dynamic>(
         routeData: routeData,

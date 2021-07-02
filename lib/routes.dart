@@ -1,6 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 
-import 'screens/group_screen.dart';
+import 'screens/main_screen.dart';
 import 'screens/tab1_screen.dart';
 import 'screens/tab2_screen.dart';
 import 'screens/tab3_screen.dart';
@@ -16,7 +16,7 @@ class $AppRouter {}
 const groupTabRouter = AutoRoute(
   initial: true,
   path: 'group/',
-  page: GroupScreen,
+  page: MainScreen,
   children: [
     AutoRoute(
       path: 'tab1',

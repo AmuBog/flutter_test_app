@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../routes.gr.dart';
 
-class GroupScreen extends StatelessWidget {
+class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
